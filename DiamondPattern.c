@@ -4,8 +4,9 @@ int main()
 {
     int n, i, j, k, m=1;
     scanf ("%d", &n);
+   
     k=n-1;
-    for (i=0; i<n; i++) {
+    for (i=0; i<n; i++) { //upper triangle 
         for (j=0; j<k; j++) {
             printf (" ");
         }
@@ -20,8 +21,9 @@ int main()
         printf ("\n");
         k--;
     }
+    
     k=1;
-    for (i=0; i<n-1; i++) {
+    for (i=0; i<n-1; i++) { //lower triangle
         for (j=0; j<k; j++) {
             printf (" ");
         }
