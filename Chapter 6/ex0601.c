@@ -1,3 +1,5 @@
+/* 입력 : 양의 정수 N
+   출력 : N의 모든 양수 (오름차순 정렬) */
 #include <stdio.h>
 
 int main()
