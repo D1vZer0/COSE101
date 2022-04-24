@@ -1,3 +1,5 @@
+/* 입력 : 두 정수 n, m (n <= m)
+   출력 : 구구단 n단부터 m단까지 나란히 출력 */
 #include <stdio.h>
 
 int main()
